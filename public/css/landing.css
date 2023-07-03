@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+    .home-container {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      min-height: 100vh;
+      align-items: center;
+      background-color: #E3E9F7;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .home-header {
+      width: 100%;
+      display: flex;
+      max-width: 100%;
+      align-items: center;
+      padding-top: 1rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-bottom: 2rem;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  
+    .home-header img{
+      padding-right: 1rem;
+    }
+  
+    .Main {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .content {
+    
+      margin-left: 150px;
+      width: 30%;
+      padding-right: 2rem; /* Added padding to create space between content and image */
+    }
+    .content button a{
+      text-decoration: none;
+      color: white;
+    }
+    .img-container {
+      width: 50%;
+      height: 55vh;
+      background-image: url(/images/bg.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  
+    .content p{
+      font-size: 20px;
+      color: rgb(128, 4, 0);
+      word-spacing: 1px;
+      line-height: 25px;
+    }
+  
+    .content button{
+      margin-top: 20px;
+      font-size: 25px;
+      width:200px;
+      height: 50px;
+      background-color: #263238;
+      color: white;
+      cursor: pointer;
+    }
+  
+    .text-blk {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      line-height: 25px;
+    }
+    
+    .responsive-cell-block {
+      min-height: 75px;
+    }
+    
+    .responsive-container-block {
+      min-height: 75px;
+      height: fit-content;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      justify-content: space-evenly;
+    }
+    
+    .outer-container {
+      padding-top: 10px;
+      padding-right: 50px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      background-color: rgb(244, 252, 255);
+    }
+    
+    .inner-container {
+      max-width: 1320px;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-bottom: 50px;
+      margin-left: auto;
+    }
+    
+    .section-head-text {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 48px;
+      color: rgb(0, 135, 177);
+      margin: 0 0 10px 0;
+    }
+    
+    .section-subhead-text {
+      font-size: 25px;
+      color: rgb(153, 153, 153);
+      line-height: 35px;
+      max-width: 470px;
+      text-align: center;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 60px;
+      margin-left: 0px;
+    }
+    
+    .img-wrapper {
+      width: 100%;
+    }
+    
+    .team-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .social-media-links {
+      width: 125px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .name {
+      font-size: 25px;
+      font-weight: 700;
+      color: rgb(102, 102, 102);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+    }
+    
+    .position {
+      font-size: 25px;
+      font-weight: 700;
+      color: rgb(0, 135, 177);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 50px;
+      margin-left: 0px;
+    }
+    
+    .team-img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .team-card-container {
+      width: 280px;
+      margin: 0 0 40px 0;
+    }
+    
+    @media (max-width: 500px) {
+      .outer-container {
+        padding: 10px 20px 10px 20px;
+      }
+    
+      .section-head-text {
+        text-align: center;
+      }
+    }
+    footer{
+      padding: 0rem 1rem;
+      padding: 1rem;
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    footer i{
+      margin: 0px 10px;
+    }
